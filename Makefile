@@ -977,9 +977,6 @@ MACHINEBUILD=maxytecmulti
 else ifeq ($(MACHINEBUILD),anadolmulti)
 MACHINE=multibox
 MACHINEBUILD=anadolmulti
-
-
-
 endif
 
 initialize: init
