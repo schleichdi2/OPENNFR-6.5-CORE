@@ -118,7 +118,6 @@ $(BBLAYERS):
 	[ -d $@ ] || $(MAKE) $(MFLAGS) update
 
 setupmbuild:
-
 ifeq ($(MACHINEBUILD),xpeedlx3)
 MACHINE=inihdp
 MACHINEBUILD=xpeedlx3
@@ -155,7 +154,7 @@ MACHINEBUILD=gbue4k
 else ifeq ($(MACHINEBUILD),dinobot4kplus)
 MACHINE=u52
 MACHINEBUILD=dinobot4kplus
-ifeq ($(MACHINEBUILD),tm2t)
+else ifeq ($(MACHINEBUILD),tm2t)
 MACHINE=dags7335
 MACHINEBUILD=tm2t
 else ifeq ($(MACHINEBUILD),tmnano)
@@ -314,6 +313,8 @@ MACHINEBUILD=force4
 else ifeq ($(MACHINEBUILD),lunix4k)
 MACHINE=dags72604
 MACHINEBUILD=lunix4k
+
+
 else ifeq ($(MACHINEBUILD),classm)
 MACHINE=odinm7
 MACHINEBUILD=classm
@@ -338,6 +339,7 @@ MACHINEBUILD=galaxym6
 else ifeq ($(MACHINEBUILD),maram9)
 MACHINE=odinm9
 MACHINEBUILD=maram9
+
 else ifeq ($(MACHINEBUILD),geniuse3hd)
 MACHINE=e3hd
 MACHINEBUILD=geniuse3hd
@@ -350,6 +352,7 @@ MACHINEBUILD=axase3
 else ifeq ($(MACHINEBUILD),axase3c)
 MACHINE=e3hd
 MACHINEBUILD=axase3c
+
 else ifeq ($(MACHINEBUILD),ventonhdx)
 MACHINE=inihdx
 MACHINEBUILD=ventonhdx
@@ -416,6 +419,7 @@ MACHINEBUILD=mbultra
 else ifeq ($(MACHINEBUILD),beyonwizt4)
 MACHINE=inihdp
 MACHINEBUILD=beyonwizt4
+
 else ifeq ($(MACHINEBUILD),dcube)
 MACHINE=cube
 MACHINEBUILD=dcube
@@ -425,6 +429,7 @@ MACHINEBUILD=mkcube
 else ifeq ($(MACHINEBUILD),ultima)
 MACHINE=cube
 MACHINEBUILD=ultima
+
 else ifeq ($(MACHINEBUILD),xp1000mk)
 MACHINE=xp1000
 MACHINEBUILD=xp1000mk
@@ -437,12 +442,14 @@ MACHINEBUILD=sf8
 else ifeq ($(MACHINEBUILD),xp1000plus)
 MACHINE=xp1000
 MACHINEBUILD=xp1000plus
+
 else ifeq ($(MACHINEBUILD),sogno8800hd)
 MACHINE=blackbox7405
 MACHINEBUILD=sogno8800hd
 else ifeq ($(MACHINEBUILD),uniboxhde)
 MACHINE=blackbox7405
 MACHINEBUILD=uniboxhde
+
 else ifeq ($(MACHINEBUILD),enfinity)
 MACHINE=ew7358
 MACHINEBUILD=enfinity
@@ -470,6 +477,8 @@ MACHINEBUILD=vipercombohdd
 else ifeq ($(MACHINEBUILD),viperslim)
 MACHINE=yh73625
 MACHINEBUILD=viperslim
+
+
 else ifeq ($(MACHINEBUILD),mutant2400)
 MACHINE=hd2400
 MACHINEBUILD=mutant2400
@@ -527,6 +536,7 @@ MACHINEBUILD=vimastec1500
 else ifeq ($(MACHINEBUILD),vimastec1000)
 MACHINE=vs1000
 MACHINEBUILD=vimastec1000
+
 else ifeq ($(MACHINEBUILD),amiko8900)
 MACHINE=spark
 MACHINEBUILD=amiko8900
@@ -566,6 +576,7 @@ MACHINEBUILD=dynaspark
 else ifeq ($(MACHINEBUILD),dynasparkplus)
 MACHINE=spark
 MACHINEBUILD=dynasparkplus
+
 else ifeq ($(MACHINEBUILD),amikoalien)
 MACHINE=spark7162
 MACHINEBUILD=amikoalien
@@ -587,6 +598,7 @@ MACHINEBUILD=sparkone
 else ifeq ($(MACHINEBUILD),dynaspark7162)
 MACHINE=spark7162
 MACHINEBUILD=dynaspark7162
+
 else ifeq ($(MACHINEBUILD),sf98)
 MACHINE=yh7362
 MACHINEBUILD=sf98
@@ -617,6 +629,7 @@ MACHINEBUILD=tyrant
 else ifeq ($(MACHINEBUILD),xcombo)
 MACHINE=vg2000
 MACHINEBUILD=xcombo
+
 else ifeq ($(MACHINEBUILD),zgemmash1)
 MACHINE=sh1
 MACHINEBUILD=zgemmash1
@@ -719,6 +732,8 @@ MACHINEBUILD=zgemmah102h
 else ifeq ($(MACHINEBUILD),zgemmah102s)
 MACHINE=h10
 MACHINEBUILD=zgemmah102s
+
+
 else ifeq ($(MACHINEBUILD),mbmicro)
 MACHINE=7000s
 MACHINEBUILD=mbmicro
@@ -770,6 +785,8 @@ MACHINEBUILD=twinboxlcdci5
 else ifeq ($(MACHINEBUILD),protek4k)
 MACHINE=8100s
 MACHINEBUILD=protek4k
+
+
 else ifeq ($(MACHINEBUILD),mbtwinplus)
 MACHINE=g300
 MACHINEBUILD=mbtwinplus
@@ -788,6 +805,8 @@ MACHINEBUILD=sf138
 else ifeq ($(MACHINEBUILD),bre2zet2c)
 MACHINE=g101
 MACHINEBUILD=bre2zet2c
+
+
 else ifeq ($(MACHINEBUILD),spycat)
 MACHINE=xc7362
 MACHINEBUILD=spycat
@@ -806,9 +825,7 @@ MACHINEBUILD=osminiplus
 else ifeq ($(MACHINEBUILD),osmega)
 MACHINE=xc7346
 MACHINEBUILD=osmega
-else ifeq ($(MACHINEBUILD),gb800se)
-MACHINE=gb7325
-MACHINEBUILD=gb800se
+
 else ifeq ($(MACHINEBUILD),gb800ue)
 MACHINE=gb7325
 MACHINEBUILD=gb800ue
@@ -842,6 +859,7 @@ MACHINEBUILD=gbtrio4k
 else ifeq ($(MACHINEBUILD),gbip4k)
 MACHINE=gbmv200
 MACHINEBUILD=gbip4k
+
 else ifeq ($(MACHINEBUILD),xpeedlxcs2)
 MACHINE=ultramini
 MACHINEBUILD=xpeedlxcs2
@@ -860,6 +878,7 @@ MACHINEBUILD=viper4k51
 else ifeq ($(MACHINEBUILD),beyonwizu4)
 MACHINE=et13000
 MACHINEBUILD=beyonwizu4
+
 else ifeq ($(MACHINEBUILD),anadol4k)
 MACHINE=u5
 MACHINEBUILD=anadol4k
@@ -923,6 +942,7 @@ MACHINEBUILD=axashisc4k
 else ifeq ($(MACHINEBUILD),dinobot4kelite)
 MACHINE=u56
 MACHINEBUILD=dinobot4kelite
+
 else ifeq ($(MACHINEBUILD),dinoboth265)
 MACHINE=u41
 MACHINEBUILD=dinoboth265
@@ -944,9 +964,12 @@ MACHINEBUILD=jdhdduo
 else ifeq ($(MACHINEBUILD),turing)
 MACHINE=u43
 MACHINEBUILD=turing
+
+
 else ifeq ($(MACHINEBUILD),clap4k)
 MACHINE=cc1
 MACHINEBUILD=clap4k
+
 else ifeq ($(MACHINEBUILD),maxytecmulti)
 MACHINE=multibox
 MACHINEBUILD=maxytecmulti
