@@ -39,6 +39,7 @@ RDEPENDS_${PN} = "\
 	${PYTHON_PN}-six \
 	${PYTHON_PN}-gdata \
 	udpxy \
+	uchardet \
 	nodejs \
 	ofgwrite \
 	libshowiframe \
