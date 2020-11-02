@@ -42,28 +42,28 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-local \
 	$(CURDIR)/meta-python2 \
 	$(CURDIR)/meta-oe-alliance/meta-oe \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ceryon \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-dinobot \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-entwopia \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-gigablue \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ini \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-broadmedia \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-octagon \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-airdigital \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-amiko \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ax \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-blackbox \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-beyonwiz \
-	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ceryon \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-cube \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-dags \
-	$(CURDIR)/meta-oe-alliance/meta-brands/meta-dinobot \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-dream \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-edision \
-	$(CURDIR)/meta-oe-alliance/meta-brands/meta-entwopia \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-formuler \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-fulan \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-gfutures \
-	$(CURDIR)/meta-oe-alliance/meta-brands/meta-gigablue \
-	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ini \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ixuss \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-maxytec \
-	$(CURDIR)/meta-oe-alliance/meta-brands/meta-broadmedia \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-odin \
-	$(CURDIR)/meta-oe-alliance/meta-brands/meta-octagon \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-protek \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-skylake \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-tiviar \
