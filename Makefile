@@ -114,6 +114,7 @@ $(BBLAYERS):
 	[ -d $@ ] || $(MAKE) $(MFLAGS) update
 
 setupmbuild:
+
 ifeq ($(MACHINEBUILD),xpeedlx3)
 MACHINE=inihdp
 MACHINEBUILD=xpeedlx3
@@ -948,6 +949,7 @@ MACHINEBUILD=maxytecmulti
 else ifeq ($(MACHINEBUILD),anadolmulti)
 MACHINE=multibox
 MACHINEBUILD=anadolmulti
+
 endif
 
 initialize: init
