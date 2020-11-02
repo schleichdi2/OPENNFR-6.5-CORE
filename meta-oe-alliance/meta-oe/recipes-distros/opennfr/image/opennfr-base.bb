@@ -28,7 +28,6 @@ RDEPENDS_${PN} = "\
 	${PYTHON_PN}-requests \
 	${PYTHON_PN}-ipaddress  \
 	${PYTHON_PN}-netifaces \
-	${PYTHON_PN}-pysnmp-se \
 	${PYTHON_PN}-pyexecjs \
 	${PYTHON_PN}-asn1crypto \   
 	${PYTHON_PN}-incremental \
