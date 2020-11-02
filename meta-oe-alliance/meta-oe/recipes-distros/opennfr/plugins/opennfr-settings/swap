@@ -1,0 +1,18 @@
+#!/bin/sh
+SWAP=/media/hdd/swap
+
+case "$1" in
+start)
+	swapon $SWAP
+	;;
+stop)
+	swapoff $SWAP
+	;;
+restart)
+	swapoff $SWAP
+	swapon $SWAP
+	;;
+esac
+
+exit 0
+

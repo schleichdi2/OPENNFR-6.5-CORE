@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<pluginsort>
+
+ <where type="WHERE_PLUGINMENU">
+  <plugin name="HDMI CEC setup" weight="8" />
+  <plugin name="Dream-Explorer" weight="0" />
+  <plugin name="CrossEPG Downloader" weight="8" />
+  <plugin name="Custom Subservice Selection Plugin" weight="8" />
+  <plugin name="Bildbetrachter" weight="1" />
+  <plugin name="OpenAirPlay" weight="8" />
+  <plugin name="OpenWebif" weight="8" />
+  <plugin name="Media Scanner" weight="7" />
+  <plugin name="Webinterface" weight="8" />
+  <plugin name="Media player" weight="4" />
+  <plugin name="OSD 3D setup" weight="8" />
+  <plugin name="Softwareverwaltung" weight="8" />
+  <plugin name="MenuSort" weight="6" />
+ </where>
+
+</pluginsort>

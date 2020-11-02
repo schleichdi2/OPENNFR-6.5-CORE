@@ -1,0 +1,52 @@
+diff --git a/Makefile.am b/Makefile.am
+index d0f54e5..e535329 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -18,8 +18,6 @@
+ 	channelselectionshorttitle \
+ 	curlytx \
+ 	dreamexplorer \
+-	dreamirc \
+-	dreammediathek \
+ 	dvdbackup \
+ 	easyinfo \
+ 	easymedia \
+@@ -45,9 +43,6 @@
+ 	kiddytimer \
+ 	letterbox \
+ 	mediadownloader \
+-	merlinepg \
+-	merlinepgcenter \
+-	merlinmusicplayer \
+ 	mosaic \
+ 	moviecut \
+ 	movieretitle \
+@@ -90,8 +85,6 @@
+ 	weatherplugin \
+ 	weathercomponent \
+ 	weathercomponenthandler \
+-	webadmin \
+-	webbouqueteditor \
+ 	webcamviewer \
+ 	werbezapper \
+ 	zaphistorybrowser \
+@@ -99,10 +92,6 @@
+ 	zdfmediathek \
+ 	oscaminfo \
+ 	esame \
+-	schiffe \
+-	sudoku \
+-	vierg \
+-	bmediacenter \
+ 	advancedmovieselection
+ 
+ if DREAMBOX
+@@ -130,8 +119,6 @@
+ SUBDIRS += \
+ 	mytube \
+ 	yttrailer \
+-	webinterface \
+-	menusort \
+ 	pluginhider \
+ 	pluginsort 
+ endif

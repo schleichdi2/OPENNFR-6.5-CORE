@@ -1,0 +1,381 @@
+(lp0
+(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p1
+(dp2
+S'name'
+p3
+S'Quad PiP channel 1'
+p4
+sS'idx'
+p5
+I1
+sS'channel'
+p6
+(dp7
+S'1'
+p8
+(S'ORF1'
+p9
+S'1:0:1:3F2:3F2:2B67:FFFF0000:0:0:0:'
+p10
+tp11
+sS'3'
+p12
+(S'ATV'
+p13
+S'1:0:1:41A:3F2:2B67:FFFF0000:0:0:0:'
+p14
+tp15
+sS'2'
+p16
+(S'ORF2 St'
+p17
+S'1:0:1:3FC:3F2:2B67:FFFF0000:0:0:0:'
+p18
+tp19
+sS'4'
+p20
+(S'ATV2'
+p21
+S'1:0:1:424:3F2:2B67:FFFF0000:0:0:0:'
+p22
+tp23
+ssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p24
+(dp25
+g3
+S'Quad PiP channel 2'
+p26
+sg5
+I2
+sg6
+(dp27
+S'1'
+p28
+(S'ORF1 HD'
+p29
+S'1:0:19:4272:492:2B67:FFFF0000:0:0:0:'
+p30
+tp31
+sS'3'
+p32
+(S'ServusTV HD Oesterreich'
+p33
+S'1:0:19:4286:492:2B67:FFFF0000:0:0:0:'
+p34
+tp35
+sS'2'
+p36
+(S'ORF2St HD'
+p37
+S'1:0:19:427C:492:2B67:FFFF0000:0:0:0:'
+p38
+tp39
+sS'4'
+p40
+Nssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p41
+(dp42
+g3
+S'Quad PiP channel 3'
+p43
+sg5
+I3
+sg6
+(dp44
+g28
+(S'Das Erste'
+p45
+S'1:0:1:BD6:406:2B67:FFFF0000:0:0:0:'
+p46
+tp47
+sg32
+(S'3sat'
+p48
+S'1:0:1:BF4:406:2B67:FFFF0000:0:0:0:'
+p49
+tp50
+sg36
+(S'ZDF'
+p51
+S'1:0:1:BE0:406:2B67:FFFF0000:0:0:0:'
+p52
+tp53
+sg40
+Nssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p54
+(dp55
+g3
+S'Quad PiP channel 4'
+p56
+sg5
+I4
+sg6
+(dp57
+g28
+(S'Das Erste HD'
+p58
+S'1:0:19:465A:49C:2B67:FFFF0000:0:0:0:'
+p59
+tp60
+sg32
+(S'SWR HD'
+p61
+S'1:0:19:466E:49C:2B67:FFFF0000:0:0:0:'
+p62
+tp63
+sg36
+(S'arte HD'
+p64
+S'1:0:19:4664:49C:2B67:FFFF0000:0:0:0:'
+p65
+tp66
+sg40
+Nssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p67
+(dp68
+g3
+S'Quad PiP channel 5'
+p69
+sg5
+I5
+sg6
+(dp70
+S'1'
+p71
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Premieren HD\xc2\x87'
+p72
+S'1:0:19:83:6:85:FFFF0000:0:0:0:'
+p73
+tp74
+sS'3'
+p75
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Thriller HD\xc2\x87'
+p76
+S'1:0:19:B:4:85:FFFF0000:0:0:0:'
+p77
+tp78
+sS'2'
+p79
+(S'\xc2\x86Sky\xc2\x87 Cinema\xc2\x86 Special HD\xc2\x87'
+p80
+S'1:0:19:6F:D:85:FFFF0000:0:0:0:'
+p81
+tp82
+sS'4'
+p83
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Best Of HD\xc2\x87'
+p84
+S'1:0:19:6B:C:85:FFFF0000:0:0:0:'
+p85
+tp86
+ssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p87
+(dp88
+g3
+S'Quad PiP channel 6'
+p89
+sg5
+I6
+sg6
+(dp90
+S'1'
+p91
+(S'\xc2\x86Sky One HD\xc2\x87'
+p92
+S'1:0:19:93:2:85:FFFF0000:0:0:0:'
+p93
+tp94
+sS'3'
+p95
+(S'Junior'
+p96
+S'1:0:16:13:2:85:FFFF0000:0:0:0:'
+p97
+tp98
+sS'2'
+p99
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Family HD\xc2\x87'
+p100
+S'1:0:19:8B:2:85:FFFF0000:0:0:0:'
+p101
+tp102
+sS'4'
+p103
+(S'\xc2\x86Kinowelt\xc2\x87 TV'
+p104
+S'1:0:16:196:2:85:FFFF0000:0:0:0:'
+p105
+tp106
+ssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p107
+(dp108
+g3
+S'Quad PiP channel 7'
+p109
+sg5
+I7
+sg6
+(dp110
+g91
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Action HD\xc2\x87'
+p111
+S'1:0:19:74:9:85:FFFF0000:0:0:0:'
+p112
+tp113
+sg95
+(S'Universal TV HD'
+p114
+S'1:0:19:65:9:85:FFFF0000:0:0:0:'
+p115
+tp116
+sg99
+(S'\xc2\x86TNT\xc2\x87 \xc2\x86Serie\xc2\x87 \xc2\x86HD\xc2\x87'
+p117
+S'1:0:19:7B:9:85:FFFF0000:0:0:0:'
+p118
+tp119
+sg103
+Nssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p120
+(dp121
+g3
+S'Quad PiP channel 8'
+p122
+sg5
+I8
+sg6
+(dp123
+g91
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Best Of HD\xc2\x87'
+p124
+S'1:0:19:6B:C:85:FFFF0000:0:0:0:'
+p125
+tp126
+sg95
+(S'Fox HD'
+p127
+S'1:0:19:7C:C:85:FFFF0000:0:0:0:'
+p128
+tp129
+sg99
+(S'\xc2\x86sky comedy HD\xc2\x87 '
+p130
+S'1:0:19:75:C:85:FFFF0000:0:0:0:'
+p131
+tp132
+sg103
+(S'\xc2\x86SYFY HD\xc2\x87'
+p133
+S'1:0:19:7E:C:85:FFFF0000:0:0:0:'
+p134
+tp135
+ssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p136
+(dp137
+g3
+S'Quad PiP channel 9'
+p138
+sg5
+I9
+sg6
+(dp139
+g91
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Premieren HD\xc2\x87'
+p140
+S'1:0:19:83:6:85:FFFF0000:0:0:0:'
+p141
+tp142
+sg95
+(S'\xc2\x86N\xc2\x87at \xc2\x86G\xc2\x87eo \xc2\x86Wild\xc2\x87 \xc2\x86HD\xc2\x87'
+p143
+S'1:0:19:76:6:85:FFFF0000:0:0:0:'
+p144
+tp145
+sg99
+(S'\xc2\x86Disc\xc2\x87overy \xc2\x86HD\xc2\x87'
+p146
+S'1:0:19:82:6:85:FFFF0000:0:0:0:'
+p147
+tp148
+sg103
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Classics\xc2\x87'
+p149
+S'1:0:16:204:6:85:FFFF0000:0:0:0:'
+p150
+tp151
+ssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p152
+(dp153
+g3
+S'Quad PiP channel 10'
+p154
+sg5
+I10
+sg6
+(dp155
+g91
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Premieren +24 HD\xc2\x87'
+p156
+S'1:0:19:87:B:85:FFFF0000:0:0:0:'
+p157
+tp158
+sg95
+(S'TNT Comedy HD'
+p159
+S'1:0:19:88:B:85:FFFF0000:0:0:0:'
+p160
+tp161
+sg99
+(S'\xc2\x86Hist\xc2\x87ory \xc2\x86HD\xc2\x87'
+p162
+S'1:0:19:71:B:85:FFFF0000:0:0:0:'
+p163
+tp164
+sg103
+Nssba(iPlugins.Extensions.QuadPip.qpip
+QuadPipChannelEntry
+p165
+(dp166
+g3
+S'Quad PiP channel 11'
+p167
+sg5
+I11
+sg6
+(dp168
+g91
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Thriller HD\xc2\x87'
+p169
+S'1:0:19:B:4:85:FFFF0000:0:0:0:'
+p170
+tp171
+sg95
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Family\xc2\x87'
+p172
+S'1:0:16:197:4:85:FFFF0000:0:0:0:'
+p173
+tp174
+sg99
+(S'Sky Krimi HD'
+p175
+S'1:0:19:17:4:85:FFFF0000:0:0:0:'
+p176
+tp177
+sg103
+(S'\xc2\x86Sky \xc2\x87Cinema \xc2\x86Premieren\xc2\x87'
+p178
+S'1:0:16:A:4:85:FFFF0000:0:0:0:'
+p179
+tp180
+ssba.

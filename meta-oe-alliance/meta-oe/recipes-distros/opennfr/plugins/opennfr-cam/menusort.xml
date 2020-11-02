@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<menusort>
+
+ <entry text="Media Center" weight="44" hidden="no"/>
+ <entry text="Bereitschaft" weight="50" hidden="no"/>
+ <entry text="Blue-PPanel" weight="30" hidden="no"/>
+ <entry text="Sleep timer" weight="50" hidden="no"/>
+ <entry text="Benutzeroberfläche neu starten" weight="50" hidden="no"/>
+ <entry text="Picture Player" weight="326" hidden="no"/>
+ <entry text="Info Panel" weight="-308" hidden="no"/>
+ <entry text="Timer" weight="6" hidden="no"/>
+ <entry text="Informationen" weight="-113" hidden="no"/>
+ <entry text="Konfiguration" weight="-272" hidden="no"/>
+ <entry text="Neustart" weight="50" hidden="no"/>
+ <entry text="Erweiterungen" weight="-230" hidden="no"/>
+ <entry text="Standby / Neustart" weight="7" hidden="no"/>
+ <entry text="Media player" weight="43" hidden="no"/>
+ <entry text="Ausschalten" weight="50" hidden="no"/>
+ <entry text="Bereitschaft / Neustart" weight="445" hidden="no"/>
+ <entry text="Media Player" weight="326" hidden="no"/>
+
+</menusort>

@@ -1,0 +1,14 @@
+/dev/mmcblk0p1		/boot		auto		defaults				1  1
+rootfs			/		auto		defaults				1  1
+proc			/proc		proc		defaults				0  0
+devpts			/dev/pts	devpts		mode=0620,gid=5				0  0
+usbdevfs		/proc/bus/usb	usbdevfs	noauto					0  0
+tmpfs			/var/volatile	tmpfs		defaults				0  0
+
+UUID=178b4268-ee9e-4b98-90c7-70b3360be32e	/media/usb	auto	defaults	1	1
+UUID=9810204a-929d-494e-9aa4-d26da5fa411d	/media/hdd	auto	defaults	1	1
+
+/dev/mmcblk0p10 none swap defaults 0 0
+
+//192.168.178.1/BUMS-DICH-FREI	/media/net/BUMSDICHFREIBUMSDICHFREI	cifs	user=schleichdi2,pass=harrywisky###,_netdev,rw,iocharset=utf8,vers=1.0	0 0
+//192.168.178.42/Harddisk	/media/net/HarddiskXPEEDLX3	cifs	user=schleichdi2,pass=harrywisky###,_netdev,rw,iocharset=utf8,vers=1.0	0 0
