@@ -16,6 +16,7 @@ S = "${WORKDIR}"
 
 PACKAGES = "${PN}"
 
+
 do_install() {
     # generate /etc/image-version
     install -d ${D}/etc
