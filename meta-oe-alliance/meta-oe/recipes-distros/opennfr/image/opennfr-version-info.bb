@@ -13,7 +13,6 @@ URL = "http://www.nachtfalke.biz"
 do_configure[nostamp] = "1"
 
 S = "${WORKDIR}"
-B = "${S}"
 
 PACKAGES = "${PN}"
 
