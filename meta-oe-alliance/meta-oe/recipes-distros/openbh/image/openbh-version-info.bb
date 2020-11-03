@@ -12,7 +12,7 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 URL = "http://www.vuplus-community.net"
 
-S = "${WORKDIR}""
+S = "${WORKDIR}"
 
 PACKAGES = "${PN}"
 
