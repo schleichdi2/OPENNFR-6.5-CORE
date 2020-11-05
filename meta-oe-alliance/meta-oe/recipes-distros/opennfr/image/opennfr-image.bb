@@ -45,7 +45,6 @@ image_preprocess() {
 			mv ${IMAGE_ROOTFS}/etc/shadow-neu ${IMAGE_ROOTFS}/etc/shadow
 			rm -rf ${IMAGE_ROOTFS}/etc/passwd-neu
 			rm -rf ${IMAGE_ROOTFS}/etc/shadow-neu
-			mv ${IMAGE_ROOTFS}/etc/pwd.lock ${IMAGE_ROOTFS}/etc/.pwd.lock
 			cd $curdir
 			
 			cd ${IMAGE_ROOTFS}/etc/network	
