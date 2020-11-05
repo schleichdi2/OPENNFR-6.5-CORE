@@ -62,13 +62,12 @@ image_preprocess() {
 
 			cd ${IMAGE_ROOTFS}/usr/emu
 				if [ "${TARGET_ARCH}" = "mipsel" ]; then
-					tar xvpzf ${IMAGE_ROOTFS}/usr/emu/oscam.tar.gz -C ${IMAGE_ROOTFS}/usr/emu/
-					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam.tar.gz
-					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-arm.tar.gz
+					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam
+					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-emu
+					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-latest
 				else
-					tar xvpzf ${IMAGE_ROOTFS}/usr/emu/oscam-arm.tar.gz -C ${IMAGE_ROOTFS}/usr/emu/
-					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam.tar.gz
-					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-arm.tar.gz
+					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-mips
+					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-mips-emu
 				fi
 			cd $curdir
 
