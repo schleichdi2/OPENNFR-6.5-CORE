@@ -27,7 +27,6 @@ RRECOMMENDS_${PN} = " \
 	enigma2-plugin-systemplugins-vfdcontrol \
 	enigma2-plugin-systemplugins-channelsimporter \
 	\
-
 	enigma2-skindefault \
 	enigma2-plugin-opennfrskins-utopia-hd \
 	 \
