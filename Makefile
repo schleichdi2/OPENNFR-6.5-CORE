@@ -995,7 +995,7 @@ clean:
 	@. $(TOPDIR)/env.source && cd $(TOPDIR) && echo -n -e "Performing a clean \e[95mPlease wait... " && bitbake -qqq -c cleanall $(DISTRO)-bootlogo && echo -n -e "\e[93mClean bootlogo completed.\e[0m"
 	@. $(TOPDIR)/env.source && cd $(TOPDIR) && echo -n -e "Performing a clean \e[95mPlease wait... " && bitbake -qqq -c cleanall $(DISTRO)-version-info && echo -n -e "\e[93mClean version completed.\e[0m"
 	@. $(TOPDIR)/env.source && cd $(TOPDIR) && echo -n -e "Performing a clean \e[95mPlease wait... " && bitbake -qqq -c cleanall enigma2 && echo -n -e "\e[93mClean enigma2 completed.\e[0m"
-	@. $(TOPDIR)/env.source && cd $(TOPDIR) && echo -n -e "Performing a clean \e[95mPlease wait... " && bitbake -qqq -c cleanall enigma2-plugin-skins-black && echo -n -e "\e[93mClean skins completed.\e[0m"
+	@. $(TOPDIR)/env.source && cd $(TOPDIR) && echo -n -e "Performing a clean \e[95mPlease wait... " && bitbake -qqq -c cleanall enigma2-plugin-skins-opennfrfhd && echo -n -e "\e[93mClean skins completed.\e[0m"
 
 update:
 	@echo 'Updating Git repositories...'
