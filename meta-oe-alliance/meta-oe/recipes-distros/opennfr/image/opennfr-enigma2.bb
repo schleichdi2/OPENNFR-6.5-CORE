@@ -27,7 +27,9 @@ RRECOMMENDS_${PN} = " \
 	enigma2-plugin-systemplugins-vfdcontrol \
 	enigma2-plugin-systemplugins-channelsimporter \
 	\
-	enigma2-plugin-skins-black_skin \
+
+	enigma2-skindefault \
+	enigma2-plugin-opennfrskins-utopia-hd \
 	 \
 	${@bb.utils.contains("MACHINE_FEATURES", "smallflash", "", "enigma2-plugin-extensions-openwebif-themes enigma2-plugin-extensions-openwebif-terminal", d)} \
 	${@bb.utils.contains("MACHINE_FEATURES", "smallflash", "enigma2-plugin-extensions-openwebif-webtv", "enigma2-plugin-extensions-openwebif-vxg", d)} \

@@ -18,6 +18,8 @@ RRECOMMENDS_${PN} = "\
 	libudfread \
 	dvblast \
 	librtmp \
+	enigma2-skindefault \
+	enigma2-plugin-opennfrskins-utopia-hd \
 "
 
 RRECOMMENDS_${PN}_append_gb800solo = "enigma2-plugin-extensions-gbipboxclient"
