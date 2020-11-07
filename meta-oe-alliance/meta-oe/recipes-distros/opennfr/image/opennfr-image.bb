@@ -13,14 +13,14 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 do_rootfs[deptask] = "do_rm_work"
 
 IMAGE_INSTALL = "opennfr-base \
-    ${@bb.utils.contains("MACHINE_FEATURES", "dvbc-only", "", "enigma2-plugin-settings-defaultsat", d)} \
-    ${@bb.utils.contains("MACHINE_FEATURES", "no-cl-svr", "", \
-    " \
-    packagegroup-base-smbfs-client \
-    packagegroup-base-smbfs-server \
-    packagegroup-base-nfs \
-    ", d)} \
-    "
+	${@bb.utils.contains("MACHINE_FEATURES", "dvbc-only", "", "enigma2-plugin-settings-defaultsat", d)} \
+	${@bb.utils.contains("MACHINE_FEATURES", "no-cl-svr", "", \
+	" \
+	packagegroup-base-smbfs-client \
+	packagegroup-base-smbfs-server \
+	packagegroup-base-nfs \
+	", d)} \
+	"
 
 IMAGE_FEATURES += "package-management"
 
@@ -53,12 +53,6 @@ image_preprocess() {
 			rm -rf ${IMAGE_ROOTFS}/etc/network/interfaces-neu
 			cd $curdir
 
-			cd ${IMAGE_ROOTFS}/usr/share/enigma2/po/de/LC_MESSAGES		
-			rm -rf ${IMAGE_ROOTFS}/usr/share/enigma2/po/de/LC_MESSAGES/enigma2.mo
-			mv ${IMAGE_ROOTFS}/usr/share/enigma2/po/de/LC_MESSAGES/enigma2-neu.mo ${IMAGE_ROOTFS}/usr/share/enigma2/po/de/LC_MESSAGES/enigma2.mo
-			rm -rf ${IMAGE_ROOTFS}/usr/share/enigma2/po/de/LC_MESSAGES/enigma2-neu.mo
-			cd $curdir
-
 			cd ${IMAGE_ROOTFS}/usr/emu
 				if [ "${TARGET_ARCH}" = "mipsel" ]; then
 					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam
@@ -78,8 +72,8 @@ do_package_index[nostamp] = "1"
 do_package_index[depends] += "${PACKAGEINDEXDEPS}"
 
 python do_package_index() {
-    from oe.rootfs import generate_index_files
-    generate_index_files(d)
+	from oe.rootfs import generate_index_files
+	generate_index_files(d)
 }
 
 IMAGE_PREPROCESS_COMMAND += "image_preprocess; "
