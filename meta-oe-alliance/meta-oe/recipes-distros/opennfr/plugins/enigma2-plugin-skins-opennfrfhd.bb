@@ -16,7 +16,7 @@ PKGV = "2.1+git${GITPKGV}"
 VER ="2.1"
 PR = "r0"
 
-SRC_URI="git://github.com/schleichdi2/OPENNFRFHD_SKIN.git"
+SRC_URI="git://github.com/schleichdi2/OPEN_NFR_SKIN.git"
 
 S = "${WORKDIR}/git"
 
