@@ -24,7 +24,6 @@ RRECOMMENDS_${PN} = " \
 	\
 	enigma2-plugin-systemplugins-softwaremanager \
 	enigma2-plugin-systemplugins-hotplug \
-	enigma2-plugin-systemplugins-vfdcontrol \
 	enigma2-plugin-systemplugins-channelsimporter \
 	\
 	enigma2-plugin-skins-opennfrfhd \
