@@ -10,6 +10,8 @@ PV = "${IMAGE_VERSION}"
 PR = "${BUILD_VERSION}"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
+WORKDIR = "${TMPDIR}/work/${MULTIMACH_TARGET_SYS}/${PN}/${EXTENDPE}${PV}"
+
 do_rootfs[deptask] = "do_rm_work"
 
 IMAGE_INSTALL = "opennfr-base \
@@ -95,6 +97,8 @@ image_preprocess() {
 }
 
 INHIBIT_DEFAULT_DEPS = "1"
+
+inherit image
 
 do_package_index[nostamp] = "1"
 do_package_index[depends] += "${PACKAGEINDEXDEPS}"
