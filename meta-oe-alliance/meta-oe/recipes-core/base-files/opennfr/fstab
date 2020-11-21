@@ -4,7 +4,9 @@ devpts			/dev/pts	devpts		mode=0620,gid=5				0  0
 usbdevfs		/proc/bus/usb	usbdevfs	noauto					0  0
 tmpfs			/var/volatile	tmpfs		defaults				0  0
 
+UUID=64621255-094f-485c-b994-4505576fa866	/media/hdd	auto	defaults	1	1
+UUID=f66636a2-bbca-4cbb-9d40-562be80e5d9d	/media/hdd	auto	defaults	1	1
 UUID=178b4268-ee9e-4b98-90c7-70b3360be32e	/media/usb	auto	defaults	1	1
-UUID=9810204a-929d-494e-9aa4-d26da5fa411d	/media/hdd	auto	defaults	1	1
-UUID=baca2880-193f-43a2-8279-647af8d191c5	/media/hdd	auto	defaults	1	1
+UUID=592943f5-b682-4ac4-b1d4-3500474f52fe	/media/usb1	auto	defaults	1	1
+UUID=b2e8be3f-56f6-444a-b83b-371111aa840d	/media/usb2	auto	defaults	1	1
 /dev/mmcblk0p10 none swap defaults 0 0
