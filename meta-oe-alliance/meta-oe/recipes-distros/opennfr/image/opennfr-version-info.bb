@@ -39,9 +39,9 @@ do_install() {
     printf "version=${IMAGE_VERSION}\n" >> ${D}${sysconfdir}/image-version
     printf "build=${BUILD_VERSION}\n" >> ${D}${sysconfdir}/image-version
     printf "date=${DATE}\n" >> ${D}${sysconfdir}/image-version
-    printf "comment=openATV\n" >> ${D}${sysconfdir}/image-version
+    printf "comment=openNFR\n" >> ${D}${sysconfdir}/image-version
     printf "target=9\n" >> ${D}${sysconfdir}/image-version
-    printf "creator=openATV" >> ${D}${sysconfdir}/image-version
+    printf "creator=openNFR" >> ${D}${sysconfdir}/image-version
     printf "url=${URL}\n" >> ${D}${sysconfdir}/image-version
     printf "catalog=${URL}\n" >> ${D}${sysconfdir}/image-version
     printf "oever=${OE_VER}\n" >> ${D}${sysconfdir}/image-version
