@@ -39,6 +39,6 @@ RRECOMMENDS_${PN} = " \
 	"
 
 GST_BASE_DVD = "\
-    gstreamer1.0-plugins-bad-videoparsersbad \
-    gstreamer1.0-plugins-bad-mpegtsmux \
+	gstreamer1.0-plugins-bad-videoparsersbad \
+	gstreamer1.0-plugins-bad-mpegtsmux \
 "

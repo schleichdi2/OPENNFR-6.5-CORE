@@ -64,7 +64,7 @@ image_preprocess() {
 			cd ${IMAGE_ROOTFS}/usr/lib
 				if [ "${TARGET_ARCH}" = "mipsel" ]; then
 					mv ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-mips ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2
-					mv ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-mips	${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2	
+					mv ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-mips	${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2
 					rm -rf ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-mips
 					rm -rf ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-mips
 					rm -rf ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-arm
