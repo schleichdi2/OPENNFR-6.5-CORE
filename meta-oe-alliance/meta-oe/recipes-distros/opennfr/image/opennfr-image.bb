@@ -104,8 +104,6 @@ image_preprocess() {
 
 INHIBIT_DEFAULT_DEPS = "1"
 
-inherit image
-
 do_package_index[nostamp] = "1"
 do_package_index[depends] += "${PACKAGEINDEXDEPS}"
 

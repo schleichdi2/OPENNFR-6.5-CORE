@@ -17,14 +17,14 @@ PV = "${IMAGE_VERSION}"
 PR = "${BUILD_VERSION}"
 PACKAGE_ARCH = "${MACHINEBUILD}"
 
+SSTATE_SKIP_CREATION = "1"
+
 URL = "http://www.opena.tv"
 
 # if DATE in PR changes (next day), workdir name changes too
 # this makes sstate unhappy and breakes many tasks in many weird ways
 
 WORKDIR = "${TMPDIR}/work/${MULTIMACH_TARGET_SYS}/${PN}/${EXTENDPE}${PV}"
-
-S = "${WORKDIR}"
 
 PACKAGES = "${PN}"
 
