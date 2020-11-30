@@ -79,5 +79,6 @@ do_install() {
 	printf "transcoding=${TRANSCODING}\n" >> ${D}${sysconfdir}/image-version
 	printf "${MACHINE}\n" > ${D}${sysconfdir}/model
 }
+do_install[vardepsexclude] += "DATE"
 
 FILES_${PN} += "${sysconfdir}/image-version ${sysconfdir}/model"
