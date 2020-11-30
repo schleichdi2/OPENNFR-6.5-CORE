@@ -47,28 +47,28 @@ image_preprocess() {
 			cd $curdir
 			
 			cd ${IMAGE_ROOTFS}/etc
-			rm -rf ${IMAGE_ROOTFS}/etc/passwd
-			rm -rf ${IMAGE_ROOTFS}/etc/shadow
+			rm -r ${IMAGE_ROOTFS}/etc/passwd
+			rm -r ${IMAGE_ROOTFS}/etc/shadow
 			mv ${IMAGE_ROOTFS}/etc/passwd-neu ${IMAGE_ROOTFS}/etc/passwd
 			mv ${IMAGE_ROOTFS}/etc/shadow-neu ${IMAGE_ROOTFS}/etc/shadow
-			rm -rf ${IMAGE_ROOTFS}/etc/passwd-neu
-			rm -rf ${IMAGE_ROOTFS}/etc/shadow-neu
+			rm -r ${IMAGE_ROOTFS}/etc/passwd-neu
+			rm -r ${IMAGE_ROOTFS}/etc/shadow-neu
 			cd $curdir
 			
 			cd ${IMAGE_ROOTFS}/etc/network	
-			rm -rf ${IMAGE_ROOTFS}/etc/network/interfaces
+			rm -r ${IMAGE_ROOTFS}/etc/network/interfaces
 			mv ${IMAGE_ROOTFS}/etc/network/interfaces-neu ${IMAGE_ROOTFS}/etc/network/interfaces
-			rm -rf ${IMAGE_ROOTFS}/etc/network/interfaces-neu
+			rm -r ${IMAGE_ROOTFS}/etc/network/interfaces-neu
 			cd $curdir
 
 			cd ${IMAGE_ROOTFS}/usr/lib
 				if [ "${TARGET_ARCH}" = "mipsel" ]; then
 					mv ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-mips ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2
 					mv ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-mips	${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2
-					rm -rf ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-mips
-					rm -rf ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-mips
-					rm -rf ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-arm
-					rm -rf ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-arm
+					rm -r ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-mips
+					rm -r ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-mips
+					rm -r ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-arm
+					rm -r ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-arm
 					ln -s libbz2.so.1.0.6 libbz2.so.0.0.0 || true
 					ln -s libcrypto.so.1.0.2 libcrypto.so.0.9.8 || true
 					ln -s libcrypto.so.1.0.2 libcrypto.so.0.9.7 || true
@@ -77,10 +77,10 @@ image_preprocess() {
 				else
 					mv ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-arm ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2
 					mv ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-arm	${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2	
-					rm -rf ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-mips
-					rm -rf ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-mips
-					rm -rf ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-arm
-					rm -rf ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-arm
+					rm -r ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-mips
+					rm -r ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-mips
+					rm -r ${IMAGE_ROOTFS}/usr/lib/libssl.so.1.0.2-arm
+					rm -r ${IMAGE_ROOTFS}/usr/lib/libcrypto.so.1.0.2-arm
 					ln -s libbz2.so.1.0.6 libbz2.so.0.0.0 || true
 					ln -s libcrypto.so.1.0.2 libcrypto.so.0.9.8 || true
 					ln -s libcrypto.so.1.0.2 libcrypto.so.0.9.7 || true
@@ -91,12 +91,12 @@ image_preprocess() {
 
 			cd ${IMAGE_ROOTFS}/usr/emu
 				if [ "${TARGET_ARCH}" = "mipsel" ]; then
-					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam
-					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-emu
-					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-latest
+					rm -r ${IMAGE_ROOTFS}/usr/emu/oscam
+					rm -r ${IMAGE_ROOTFS}/usr/emu/oscam-emu
+					rm -r ${IMAGE_ROOTFS}/usr/emu/oscam-latest
 				else
-					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-mips
-					rm -rf ${IMAGE_ROOTFS}/usr/emu/oscam-mips-emu
+					rm -r ${IMAGE_ROOTFS}/usr/emu/oscam-mips
+					rm -r ${IMAGE_ROOTFS}/usr/emu/oscam-mips-emu
 				fi
 			cd $curdir
 
