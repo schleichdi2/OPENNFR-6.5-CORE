@@ -40,7 +40,7 @@ do_install() {
 	printf "date=${DATE}\n" >> ${D}${sysconfdir}/image-version
 	printf "comment=openNFR\n" >> ${D}${sysconfdir}/image-version
 	printf "target=9\n" >> ${D}${sysconfdir}/image-version
-	printf "creator=openNFR" >> ${D}${sysconfdir}/image-version
+    	printf "creator=openNFR\n" >> ${D}${sysconfdir}/image-version
 	printf "url=${URL}\n" >> ${D}${sysconfdir}/image-version
 	printf "catalog=${URL}\n" >> ${D}${sysconfdir}/image-version
 	printf "oever=${OE_VER}\n" >> ${D}${sysconfdir}/image-version

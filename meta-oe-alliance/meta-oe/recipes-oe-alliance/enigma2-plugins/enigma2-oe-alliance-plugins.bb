@@ -83,6 +83,7 @@ DEPENDS = "\
 
 
 DESCRIPTION_enigma2-plugin-systemplugins-audioeffect = "Audio Effect setup"
+DESCRIPTION_enigma2-plugin-systemplugins-aboutboxbranding = "View Boxbranding data from the GUI"
 DESCRIPTION_enigma2-plugin-extensions-btdevicesmanager = "this is bt devices manger to pair e.x keyboard or mouse"
 RDEPENDS_enigma2-plugin-extensions-btdevicesmanager = "bluez5-testtools bluez5 bluez-hcidump bluez-conf bluez-hidd bluez-alsa alsa-utils-aplay ${PYTHON_PN}-pexpect"
 DESCRIPTION_enigma2-plugin-systemplugins-blindscan = "blindscan..."
